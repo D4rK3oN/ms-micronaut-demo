@@ -1,0 +1,13 @@
+micronaut.application.name: demo
+
+datasources.default.driverClassName: org.postgresql.Driver
+
+jpa:
+  default:
+    packages-to-scan:
+      - 'com.example.simple.domain'
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: validate # e.g. validate | update | create | create-drop
+        show_sql: true

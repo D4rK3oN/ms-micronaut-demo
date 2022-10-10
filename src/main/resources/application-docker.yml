@@ -1,0 +1,7 @@
+micronaut.server.port: 9081
+
+datasources:
+  default:
+    url: jdbc:postgresql://postgre-sql:5432/example
+    username: postgres
+    password: admin
